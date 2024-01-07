@@ -16,7 +16,7 @@ struct EditDestinationView: View {
         Form {
             TextField("Name", text: $destination.name)
             TextField("Details", text: $destination.details, axis: .vertical)
-            DatePicker("Date", selection: $destination.date)
+            DatePicker("Date", selection: $destination.date, displayedComponents: [.date])
             
             Section("Priority") {
                 Picker("Priority", selection: $destination.priority) {

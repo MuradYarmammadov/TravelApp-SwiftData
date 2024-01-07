@@ -13,6 +13,7 @@
 		FA8AB2872B4A18D000C337A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8AB2862B4A18D000C337A9 /* Preview Assets.xcassets */; };
 		FA8AB28E2B4A190400C337A9 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB28D2B4A190400C337A9 /* EditDestinationView.swift */; };
 		FA8AB2902B4A191B00C337A9 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB28F2B4A191B00C337A9 /* DestinationModel.swift */; };
+		FA8AB2922B4A1DFA00C337A9 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB2912B4A1DFA00C337A9 /* DestinationListingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FA8AB2862B4A18D000C337A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA8AB28D2B4A190400C337A9 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 		FA8AB28F2B4A191B00C337A9 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		FA8AB2912B4A1DFA00C337A9 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				FA8AB27F2B4A18CE00C337A9 /* TravelApp_SwiftUIApp.swift */,
 				FA8AB2812B4A18CE00C337A9 /* ContentView.swift */,
+				FA8AB2912B4A1DFA00C337A9 /* DestinationListingView.swift */,
 				FA8AB28D2B4A190400C337A9 /* EditDestinationView.swift */,
 				FA8AB28F2B4A191B00C337A9 /* DestinationModel.swift */,
 				FA8AB2832B4A18D000C337A9 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				FA8AB28E2B4A190400C337A9 /* EditDestinationView.swift in Sources */,
 				FA8AB2822B4A18CE00C337A9 /* ContentView.swift in Sources */,
 				FA8AB2802B4A18CE00C337A9 /* TravelApp_SwiftUIApp.swift in Sources */,
+				FA8AB2922B4A1DFA00C337A9 /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
